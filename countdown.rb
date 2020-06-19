@@ -1,7 +1,7 @@
-def countdown(number)
+def countdown()
   new_year_countdown = 10
   until new_year_countdown == 0
-    puts "#{number} SECOND(S)!"
+    puts "#{new_year_countdown} SECOND(S)!"
     new_year_countdown -= 1
   end
 end
