@@ -1,6 +1,6 @@
 require 'pry'
 def countdown(number)
-  until number  < 10
+  until number  <= 10
     return "#{number} SECOND(S)!"
     number -= 1
   end
