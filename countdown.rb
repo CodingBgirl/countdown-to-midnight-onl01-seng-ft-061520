@@ -1,6 +1,6 @@
 require 'pry'
 def countdown(number)
-  until number  == 0
+  until number  < 10
     puts "#{number} SECOND(S)!"
     number -= 1
     return "HAPPY NEW YEAR!"
