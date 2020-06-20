@@ -1,8 +1,9 @@
 
 def countdown(number)
   while number  > 0
-    #This takes the arguement and puts it 
+    #This takes the arguement and puts it the below string
     puts "#{number} SECOND(S)!"
+    #Subtracts 1 number from th arguement given
     number -= 1
   end
   "HAPPY NEW YEAR!"
