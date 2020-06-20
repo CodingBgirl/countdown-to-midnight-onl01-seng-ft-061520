@@ -6,6 +6,7 @@ def countdown(number)
     #Subtracts 1 number from th arguement given
     number -= 1
   end
+  # Return HAPPY NEW YEAR!
   "HAPPY NEW YEAR!"
 end
 
