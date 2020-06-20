@@ -3,7 +3,7 @@ def countdown(number)
   new_year_countdown = 10
   until new_year_countdown  == 0
     puts "#{number} SECOND(S)!"
-    number -= 1
+    new_year_countdown -= 1
     return "HAPPY NEW YEAR!"
   end
 end
